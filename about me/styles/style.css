@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.header-bar{
+    width: 90%;
+    height: 70px;
+    /* border: 2px solid black;
+    border-radius: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.header-bar hr {
+    width: 2px;
+    border: none;
+    height: 20px;
+    background-color: black;
+}
+
+#body {
+    background-color: #34170D;
+}
+
+.section{
+    padding-top: 150px;
+    padding-bottom: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.section hr{
+    background-color: black;
+    border: none;
+    height: 4px;
+    width: 70%;
+}
+
+section p{
+    font-family: "Playwrite AU SA", cursive;
+}
+
+/* , */
+
+body.texturizer {
+    margin: 2em;
+  }
+  
+  div.ts {
+    font-size:4.7em;
+    line-height: normal;
+    word-spacing:0.5em;
+  }
+  
+  div.ts .tw .tc,
+  div.ts .tw,
+  div.ts {
+    display: inline-block;
+  }
+  
+  div.ts .tw {
+    white-space: pre;
+    margin-left: .2em;
+    margin-right: .2em;
+  }
+  
+  div.ts .rr {
+    -ms-transform: rotate(1.5deg);
+    -webkit-transform: rotate(1.5deg);
+    transform: rotate(1.5deg);
+  }
+  
+  div.ts .rl {
+    -ms-transform: rotate(-1.5deg);
+    -webkit-transform: rotate(-1.5deg);
+    transform: rotate(-1.5deg);
+  }
+
+
+@keyframes shake {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, 1px) rotate(-0.5deg);
+    }
+
+    20% {
+        transform: translate(-1px, -1px) rotate(0.5deg);
+    }
+
+    30% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(0.5deg);
+    }
+
+    50% {
+        transform: translate(-1px, 1px) rotate(-0.5deg);
+    }
+
+    60% {
+        transform: translate(1px, 0px) rotate(0.5deg);
+    }
+
+    70% {
+        transform: translate(0px, 1px) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(-0.5deg);
+    }
+
+    90% {
+        transform: translate(1px, 1px) rotate(0.5deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+.shaky {
+    animation: shake 0.8s infinite;
+    display: inline-block;
+}
+
+
+div.ts .tc {
+    animation-name: shake;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: inline-block;
+}
+
+div.ts .tc:nth-child(1) {
+    animation-delay: 0s;
+}
+
+div.ts .tc:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+div.ts .tc:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+div.ts .tc:nth-child(4) {
+    animation-delay: 0.1s;
+}
+
+div.ts .tc:nth-child(5) {
+    animation-delay: 0.3s;
+}
+
+div.ts .tc:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+div.ts .tc:nth-child(7) {
+    animation-delay: 0.15s;
+}
+
+div.ts .tc:nth-child(8) {
+    animation-delay: 0.35s;
+}
+
+
+#flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* , */
+
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 160px;
+}
+
+
+
+.text-aboutme{
+    width: 300px;
+    text-align: center;
+    height: 800px;
+    border: 5px solid #34170D;
+    border-radius:170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px 0  10px;
+}
+
+
+.text-aboutme img {
+    width: 70%;
+}
+
+.myhome{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-whereim{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-whereim img{
+    width: 80%;
+} 
+
+
+.imgs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs img{
+    width: 300px;
+}
+
+.imgtext{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+.mus-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.music-section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group{
+    width: 550px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.group-info{
+    width: 550px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.group-info img{
+    width: 72%;
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.band-tape{
+    width: 80%;
+    height: 290px;
+}
+
+.band-tape img{
+    width: 100%;
+    height: 290px;
+    border-radius: 20px;
+
+}
+
+.band{
+    width: 440px;
+    height: 290px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    align-items: center;
+}
+
+.band::-webkit-scrollbar {
+    display: none;
+  }
+
+.band-logo{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: grey;
+    min-width: 200px;
+    height: 270px;
+    background-size: cover;
+}
+
+
+
+.writers-scroll{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.writer-card{
+    color: white;
+    background-color: #34170D;
+    width: 335px;
+    height: 667px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.writter-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+.kafka{
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/677a5aa35f4bef9a9f33bd01/Franz-Kafka-crossing-his-arms-/0x0.jpg?format=jpg&crop=992,993,x0,y54,safe&width=960");
+}
+
+.haruki{
+    background-image: url("https://i.pinimg.com/736x/ae/e5/00/aee5005784c450b8ea8e0284d976ca89.jpg");
+}
+
+.albert{
+    background-image: url("https://www.bonhams.com/_next/image.jpg?url=https%3A%2F%2Fimg2.bonhams.com%2Fimage%3Fsrc%3DImages%2Flive%2F2024-01%2F08%2F25422407-136-2.jpg&w=2400&q=75");
+}
+
+
+.book-cover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: grey;
+    min-width: 150px;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+
+.writter-scroll{
+    width: 322px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    align-items: end;
+}
+
+
+.nameofwriter{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.nameofwriter p {
+    font-size: 10px !important;
+}
+
+.nameofwriter h2 {
+    font-size: 19px;
+}
+
+
+#books{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.Dostoevsky{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/077/182/155/large/vahid-ahmadi-dostoevsky-by-vahid-ahmadi-insta-size-1600.jpg?1718795050");
+}
+
+
+.title {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.title hr{
+    height: 2px ;
+    width: 100px ;
+    border: none;
+    background-color: white;
+}
+
+
+#text1{
+    color: white;
+    text-align: center;
+    width: 60%;
+    padding-bottom: 40px;
+    font-size: 20px;
+}

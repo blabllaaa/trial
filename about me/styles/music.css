@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #34170D;
+}
+
+.writers-scroll{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.writer-card{
+    margin: 30px;
+    width: 335px;
+    height: 667px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/077/182/155/large/vahid-ahmadi-dostoevsky-by-vahid-ahmadi-insta-size-1600.jpg?1718795050");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.writter-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+.kafka{
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/677a5aa35f4bef9a9f33bd01/Franz-Kafka-crossing-his-arms-/0x0.jpg?format=jpg&crop=992,993,x0,y54,safe&width=960");
+}
+
+.haruki{
+    background-image: url("https://i.pinimg.com/736x/ae/e5/00/aee5005784c450b8ea8e0284d976ca89.jpg");
+}
+
+.albert{
+    background-image: url("https://www.bonhams.com/_next/image.jpg?url=https%3A%2F%2Fimg2.bonhams.com%2Fimage%3Fsrc%3DImages%2Flive%2F2024-01%2F08%2F25422407-136-2.jpg&w=2400&q=75");
+}
+
+
+.book-cover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: grey;
+    min-width: 150px;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+
+.writter-scroll{
+    width: 322px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    align-items: end;
+}
+
+
+.nameofwriter{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.nameofwriter p {
+    font-size: 13px;
+}
+
+.nameofwriter h2 {
+    font-size: 19px;
+}
+
+
+
+.book-info{
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 335px;
+    height: 667px;
+}
+
+.book-img{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNjVhYTI0YTgtNjNkZS00MTdjLTg4NmYtZDA1YzQ1OTNlNWI1XkEyXkFqcGc@._V1_.jpg");
+}
+
+.book-img h1,p {
+ color: white;
+}
+
+.info-text{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
